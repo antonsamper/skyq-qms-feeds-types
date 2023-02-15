@@ -1,0 +1,37 @@
+/**
+ * A "Platform" is a keyword combining a QMS Proposition and Device
+ *
+ * Platform values are used to ...
+ */
+export enum PLATFORMS {
+    APPLETV = 'APPLETV',
+    BEETHOVENIPSTB = 'BEETHOVENIPSTB',
+    FLEXCOMIPSTB = 'FLEXCOMIPSTB',
+    FOXTELIPSTB = 'FOXTELIPSTB',
+    LLAMAIPSTB = 'LLAMAIPSTB',
+    MEDIASETCE = 'MEDIASETCE',
+    MEDIASETDESKTOP = 'MEDIASETDESKTOP',
+    MOZARTDESKTOP = 'MOZARTDESKTOP',
+    MOZARTIPSTB = 'MOZARTIPSTB',
+    MOZARTMOBILE = 'MOZARTMOBILE',
+    MOZARTPS4 = 'MOZARTPS4',
+    MOZARTSMARTTV = 'MOZARTSMARTTV',
+    QDESKTOP = 'QDESKTOP',
+    QHIPSTB = 'QHIPSTB',
+    QIPSTB = 'QIPSTB',
+    QMOBILE = 'QMOBILE',
+    QPS4 = 'QPS4',
+    QSTB = 'QSTB',
+    SKYGO = 'SKYGO',
+    SKYGODESKTOP = 'SKYGODESKTOP',
+    SKYQSTBOFFLINE = 'SKYQSTBOFFLINE',
+    SMARTTV = 'SMARTTV',
+    VERDIIPSTB = 'VERDIIPSTB',
+    XUMOIPSTB = 'XUMOIPSTB',
+}
+
+function test({ platform }: { platform: PLATFORMS }) {
+    console.log(platform);
+}
+
+test({ platform: PLATFORMS.FLEXCOMIPSTB });

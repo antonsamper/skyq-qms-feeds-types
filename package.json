@@ -1,0 +1,24 @@
+{
+  "name": "skyq-qms-feeds-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonsamper/skyq-qms-feeds-types.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonsamper/skyq-qms-feeds-types/issues"
+  },
+  "homepage": "https://github.com/antonsamper/skyq-qms-feeds-types#readme",
+  "devDependencies": {
+    "typescript": "5.0.0-beta"
+  }
+}
