@@ -1,7 +1,7 @@
 /**
- * A "Platform" is a keyword combining a QMS Proposition and Device
+ * A "Platform" is a keyword combining a Proposition and Device
  *
- * Platform values are used to ...
+ * Platform values are predominantly used to categorise Pages, Bookmarks and Voice Tags
  */
 export enum PLATFORMS {
     APPLETV = 'APPLETV',
@@ -29,9 +29,3 @@ export enum PLATFORMS {
     VERDIIPSTB = 'VERDIIPSTB',
     XUMOIPSTB = 'XUMOIPSTB',
 }
-
-function test({ platform }: { platform: PLATFORMS }) {
-    console.log(platform);
-}
-
-test({ platform: PLATFORMS.FLEXCOMIPSTB });
